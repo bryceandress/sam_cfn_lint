@@ -1,0 +1,6 @@
+- id: sam-cfn-lint
+  name: sam-cfn-lint
+  entry: sam_cfn_lint.sh
+  language: script
+  pass_filenames: false
+  files: template.yaml
